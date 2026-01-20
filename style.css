@@ -310,6 +310,10 @@ justify-content: center;
 
 
 @media screen and (max-width:576px) {
+    .card-container{
+        grid-template-columns: repeat(1, 550px);
+
+    }
 }
 
 
